@@ -1,0 +1,22 @@
+
+.google_signin{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.google_img{
+  margin-top: 20px;
+}
+
+.google_signin h1{
+    font-size: 55px;
+    font-weight: 200;
+}
+.google_signin h3{
+    font-size: 40px;
+    font-weight: 200;
+    opacity: 0.3;
+}
