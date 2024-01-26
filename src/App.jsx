@@ -4,16 +4,16 @@ import {
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
-import Registration from "./pages/registration/Registration";
-import SignIn from "./pages/signin/SignIn";
+// import SignIn from "./pages/signin/SignIn";
+import Navbar from "./components/navbar/Navbar";
 
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
     <>
-    <Route path="/" element={<SignIn/>}/>
-    <Route path="/registration" element={<Registration/>}/>
+    {/* <Route path="/" element={<SignIn/>}/> */}
+    <Route path="/" element={<Navbar/>}/>
     </>
     )
   );
